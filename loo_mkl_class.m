@@ -13,9 +13,13 @@
 clear all
 clc
 
+
+% Add paths - Shogun / Pronto / MKL scripts / SPM
+% -------------------------------------------------------------------------
 addpath(genpath('/cns_zfs/system/system_ce51_64/PRoNTo/PRoNTo_v1.1_beta'))
 addpath(genpath('/cns_zfs/system/system_ce51_64/shogun/shogun-2.0.0'))
-addpath(genpath('/cns_zfs/system/system_s9_sparc/spm/spm-8-5236'))
+addpath(genpath('/Users/mariarosa/Documents/Software/spm8/'))
+addpath(genpath('/Users/mariarosa/Documents/Work/gabriel_scripts/mkl_scripts'))
 
 
 % Load all data [N x D x K]
